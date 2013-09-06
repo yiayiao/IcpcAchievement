@@ -1,0 +1,160 @@
+body 
+{
+	font-family: Arial;
+	font-size: 14px;	
+	background-color: #1A1A1A;
+}
+#about-us
+{
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-color: #1A1A1A;
+	background-image: none;
+	background-origin: padding-box;
+	display: block;
+	font-family: Arial;
+	font-size: 14px;
+	height: 2573px;
+	width: 80%;
+	margin: auto;
+}
+a{
+	color: #999;
+	text-decoration: none;
+}
+a:hover
+{
+	color: #6CC;
+	text-decoration: underline;
+}
+
+#sidebar
+{
+	color: #EEE;
+	position: fixed;
+	top: 38px;
+	width: 250px;
+}
+
+#content 
+{	
+	margin: 23px 5% 5em 315px;
+}
+
+h1
+{
+	margin-left: 20px;
+}
+h1 em 
+{
+	color: #D0EB6A;
+	font-style: normal;
+	text-align: center;
+}
+
+
+#nav 
+{
+	list-style: none;
+	width: 15em;
+	padding: 0;
+	margin-left: 10;
+}
+
+
+#nav li 
+{
+	padding: 0;
+	margin: 0;
+	height: 35px;
+	line-height: 24px;
+}
+
+#sidebar a
+{
+    margin-left:20px;
+}
+
+
+#nav a 
+{
+	background-color: #333;
+	color: #EEE;
+	display: block;
+	font-size: 14px;
+	height: 28px;
+	line-height: 24px;
+	padding-bottom: 2px;
+	padding-left: 11px;
+	padding-right: 2px;
+	padding-top: 4px;
+	text-decoration: none;
+	width: 227px;
+}
+#nav a:hover
+{
+	background-color: #363;
+}
+
+.first 
+{
+	border-top: none;
+}
+.photo 
+{
+	border-top: 1px solid #3D3D33;
+	padding: 1.5em 0;
+	color: #EEE;
+}
+h2 
+{
+	font-size: 1.5em;
+	letter-spacing: 0.4pt;
+	color: #D0EB6A;
+	text-transform: uppercase;
+	padding-top: 0.5em;
+	margin:5px 0;
+}
+
+p.lead 
+{
+	margin:1;
+	font-size: 1.2em;
+	background-color:#333;
+}
+p 
+{
+	line-height: 1.5em;
+	margin-bottom: 1.0em;
+	font-size: 0.9em;
+}
+p.small
+{
+	margin:0;
+	font-size: 1.0 em;
+	margin-bottom: 10px;
+}
+p em
+{
+	color: #F66;
+	display: inline-block;
+	margin-left: 5px;
+	font-style: normal;
+	text-align: center;
+}
+
+.thumbnail 
+{
+	padding: 3px 3px 8px 3px;
+	background-color: #EEE;
+	border: 1px solid #2A2A2A;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.section 
+{
+	border-top: 1px solid #3D3D33;
+	padding: 1.5em 0;
+}
